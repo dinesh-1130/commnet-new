@@ -415,7 +415,8 @@ export default function EnterpriseSystemsGroup() {
                 "Structured Cabling Systems",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <FaCheckCircle className=" text-red-600 mt-1" />
+                 <FaCheckCircle className="text-red-600 w-5 h-5 mt-1 flex-shrink-0" />
+
                   <span>{item}</span>
                 </li>
               ))}
