@@ -94,11 +94,11 @@ export default function ContactPage() {
           <div className="w-full md:w-2/3" data-aos="fade-left">
             <h2 className="text-3xl font-bold mb-6">Enquire Now</h2>
             <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <input
+              {/* <input
                 placeholder="Select Enquiry Subject"
                 className="border-b p-2 outline-none"
-              />
-              <input placeholder="Title" className="border-b p-2 outline-none" />
+              /> */}
+              {/* <input placeholder="Title" className="border-b p-2 outline-none" /> */}
               <input
                 placeholder="Your Name"
                 className="border-b p-2 outline-none"

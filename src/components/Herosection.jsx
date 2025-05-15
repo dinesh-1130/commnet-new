@@ -120,9 +120,16 @@ export default function HeroSection() {
         <h1 className="text-3xl sm:text-5xl font-bold leading-tight">
           Integration Simplified Your Communication & Networking Partner
         </h1>
-        <button className="mt-8 bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">
+        {/* <button className="mt-8 bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">
           Learn More
-        </button>
+        </button> */}
+
+        <a href="/aboutus">
+  <button className="mt-8 bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-200 transition">
+    Learn More
+  </button>
+</a>
+
       </div>
 
    {/* Scroll Button (hidden on mobile) */}

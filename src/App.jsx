@@ -32,6 +32,7 @@ import Partners from "./components/Partners"
 import { useEffect } from "react";
 import TermsAndConditions from "./components/InnerPages/TermsAndConditions";
 import PrivacyPolicy from "./components/InnerPages/PrivacyPolicy";
+import Brochure from "./components/InnerPages/Brochure"
 
 
 
@@ -82,6 +83,7 @@ export default function App() {
           <Route path="/websitedevelopment" element={<WebsiteDevelopment />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/aboutus" element={< Aboutus/>} />
+          <Route path="/brochure" element={<Brochure />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
         </Routes>

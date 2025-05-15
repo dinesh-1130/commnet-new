@@ -34,3 +34,7 @@ html, body {
 html {
   scroll-behavior: smooth;
 }
+.no-gap .page-inner {
+  padding: 0 !important;
+  margin: 0 !important;
+}

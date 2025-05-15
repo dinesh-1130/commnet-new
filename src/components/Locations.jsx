@@ -3,48 +3,45 @@
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 
-// // Locations with coordinates for OpenStreetMap
 // const locations = [
-//   {
-//     name: "Abu Dhabi - UAE",
-//     address:
-//       "30th Floor, Commercial Tower Al Wahda City 1 Hazza Bin Zayed Street, Abu Dhabi, United Arab Emirates",
-//     lat: 25.13041002119675,
-//     lon: 55.2306922373417,
-//   },
+//   // {
+//   //   name: "Abu Dhabi - UAE",
+//   //   address:
+//   //     "30th Floor, Commercial Tower Al Wahda City 1 Hazza Bin Zayed Street, Abu Dhabi, United Arab Emirates",
+//   //   lat: 25.13041002119675,
+//   //   lon: 55.2306922373417,
+//   // },
+// {
+//   name: "Dubai - UAE",
+//   address:
+//     "Office No.301, Centurion Star Building, Tower A, Port Saeed Dubai, UAE, PO Box 117133",
+//   lat: 25.2532,
+//   lon: 55.3657,
+// }
 
-//   {
-//     name: "Dubai - UAE",
-//     address:
-//       "Emarat Atrium Building, Block B, 3rd floor, Sheikh Zayed Road, Dubai, UAE",
-//     lat: 25.13041002119675,
-//     lon: 55.2306922373417,
-//   },
-
-//   {
-//     name: "Mumbai - India ",
-//     address:
-//       "5, Bandra Kurla Complex Rd, G Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051, India",
-//     lat: 19.06020439782456,
-//     lon: 72.8599431006252,
-//   },
-//   {
-//     name: "Chennai - India",
-//     address:
-//       "No:5,Shiyam Mythri flats,Flat no :3B, PT Rajan Rd, K. K. Nagar, Chennai, Tamil Nadu 600078, India",
-//     lat: 13.037027458861171,
-//     lon: 80.20425420326066,
-//   },
-//   {
-//     name: "Coimbatore - India",
-//     address:
-//       "464, Beema Naidu Rd, G.V. Residency, Uppilipalayam, Coimbatore, Tamil Nadu 641015, India",
-//     lat: 11.045219431347462,
-//     lon: 77.00765979385952,
-//   },
+//   // {
+//   //   name: "Mumbai - India ",
+//   //   address:
+//   //     "5, Bandra Kurla Complex Rd, G Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051, India",
+//   //   lat: 19.06020439782456,
+//   //   lon: 72.8599431006252,
+//   // },
+//   // {
+//   //   name: "Chennai - India",
+//   //   address:
+//   //     "No:5,Shiyam Mythri flats,Flat no :3B, PT Rajan Rd, K. K. Nagar, Chennai, Tamil Nadu 600078, India",
+//   //   lat: 13.037027458861171,
+//   //   lon: 80.20425420326066,
+//   // },
+//   // {
+//   //   name: "Coimbatore - India",
+//   //   address:
+//   //     "464, Beema Naidu Rd, G.V. Residency, Uppilipalayam, Coimbatore, Tamil Nadu 641015, India",
+//   //   lat: 11.045219431347462,
+//   //   lon: 77.00765979385952,
+//   // },
 // ];
 
-// // Generate OpenStreetMap embed link with bounding box and marker
 // const getMapEmbedUrl = (lat, lon) =>
 //   `https://www.openstreetmap.org/export/embed.html?bbox=${lon - 0.02},${
 //     lat - 0.01
@@ -82,18 +79,17 @@
 //         className="text-center px-4 mb-2 max-w-screen-lg mx-auto"
 //         data-aos="fade-up"
 //       >
-//         <div className="inline-block px-4 py-1 rounded-full border border-blue-500 text-blue-600 text-sm mb-2">
+//         <div className="inline-block px-4 py-1 rounded-full border border-sky-500 text-sky-600 text-sm mb-2">
 //           Our Global Presence
 //         </div>
-//         <h2 className="text-lg md:text-4xl font-bold text-gray-800 mb-1">
+//         <h2 className="text-lg md:text-4xl font-bold text-sky-600 mb-1">
 //           A local company with{" "}
-//           <span className="text-blue-600 md:text-blue-600">
+//           <span className="text-sky-600 md:text-red-600">
 //             Global Standards
 //           </span>
 //         </h2>
 //       </div>
 
-//       {/* Mobile Tabs */}
 //       <div
 //         ref={tabsRef}
 //         className="flex md:hidden overflow-x-auto whitespace-nowrap py-2 px-2 scrollbar-hide border-b"
@@ -116,7 +112,6 @@
 //         </div>
 //       </div>
 
-//       {/* Desktop Tabs */}
 //       <div className="hidden md:flex justify-center space-x-6 mt-10 border-b overflow-x-auto">
 //         {locations.map((loc, index) => (
 //           <button
@@ -133,7 +128,6 @@
 //         ))}
 //       </div>
 
-//       {/* Mobile Layout */}
 //       <div
 //         className="md:hidden px-4 pb-6 mt-1"
 //         data-aos="fade-up"
@@ -152,9 +146,10 @@
 //             ></iframe>
 //           </div>
 //           <div className="p-4">
-//             <h3 className="text-base font-semibold text-gray-800 mb-3 truncate">
-//               {locations[activeTab].name}
-//             </h3>
+//            <h3 className="text-base font-semibold text-gray-800 mb-3 truncate text-center md:text-left">
+//   {locations[activeTab].name}
+// </h3>
+
 //             <div className="flex items-start space-x-2">
 //               <svg
 //                 className="w-5 h-5 text-sky-600 mt-0.5 flex-shrink-0"
@@ -168,7 +163,7 @@
 //                 />
 //               </svg>
 //               <div className="flex-1 overflow-hidden">
-//                 <span className="text-blue-600 font-medium block mb-1 text-sm">
+//                 <span className="text-sky-600 font-medium block mb-1 text-sm">
 //                   Office Address
 //                 </span>
 //                 <p className="text-gray-700 text-xs leading-relaxed break-words pr-2">
@@ -176,14 +171,13 @@
 //                 </p>
 //               </div>
 //             </div>
-//             <button className="mt-4 py-2 bg-blue-500 hover:bg-blue-600 text-white font-medium text-center w-full rounded">
+//             <button className="mt-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-medium text-center w-full rounded">
 //               Explore
 //             </button>
 //           </div>
 //         </div>
 //       </div>
 
-//       {/* Desktop Layout */}
 //       <div
 //         className="hidden md:flex mt-10 max-w-7xl mx-auto flex-col md:flex-row items-start gap-12 px-6"
 //         data-aos="fade-up"
@@ -193,7 +187,7 @@
 //           <h3 className="text-3xl font-bold text-gray-800">
 //             {locations[activeTab].name}
 //           </h3>
-//           <div className="mt-4 flex items-center gap-2 text-blue-600 font-semibold">
+//           <div className="mt-4 flex items-center gap-2 text-sky-600 font-semibold">
 //             <svg
 //               className="w-5 h-5 text-red-600"
 //               fill="currentColor"
@@ -206,7 +200,7 @@
 //           <p className="mt-2 text-gray-700 leading-relaxed">
 //             {locations[activeTab].address}
 //           </p>
-//           <button className="mt-6 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold">
+//           <button className="mt-6 px-6 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-full font-semibold">
 //             Explore
 //           </button>
 //         </div>
@@ -233,39 +227,11 @@ import "aos/dist/aos.css";
 
 const locations = [
   {
-    name: "Abu Dhabi - UAE",
-    address:
-      "30th Floor, Commercial Tower Al Wahda City 1 Hazza Bin Zayed Street, Abu Dhabi, United Arab Emirates",
-    lat: 25.13041002119675,
-    lon: 55.2306922373417,
-  },
-  {
     name: "Dubai - UAE",
     address:
-      "Emarat Atrium Building, Block B, 3rd floor, Sheikh Zayed Road, Dubai, UAE",
-    lat: 25.13041002119675,
-    lon: 55.2306922373417,
-  },
-  {
-    name: "Mumbai - India ",
-    address:
-      "5, Bandra Kurla Complex Rd, G Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051, India",
-    lat: 19.06020439782456,
-    lon: 72.8599431006252,
-  },
-  {
-    name: "Chennai - India",
-    address:
-      "No:5,Shiyam Mythri flats,Flat no :3B, PT Rajan Rd, K. K. Nagar, Chennai, Tamil Nadu 600078, India",
-    lat: 13.037027458861171,
-    lon: 80.20425420326066,
-  },
-  {
-    name: "Coimbatore - India",
-    address:
-      "464, Beema Naidu Rd, G.V. Residency, Uppilipalayam, Coimbatore, Tamil Nadu 641015, India",
-    lat: 11.045219431347462,
-    lon: 77.00765979385952,
+      "Office No.301, Centurion Star Building, Tower A, Port Saeed Dubai, UAE, PO Box 117133",
+    lat: 25.2532,
+    lon: 55.3657,
   },
 ];
 
@@ -311,18 +277,17 @@ export default function GlobalPresence() {
         </div>
         <h2 className="text-lg md:text-4xl font-bold text-sky-600 mb-1">
           A local company with{" "}
-          <span className="text-sky-600 md:text-red-600">
-            Global Standards
-          </span>
+          <span className="text-sky-600 md:text-red-600">Global Standards</span>
         </h2>
       </div>
 
+      {/* Mobile Tabs Centered */}
       <div
         ref={tabsRef}
-        className="flex md:hidden overflow-x-auto whitespace-nowrap py-2 px-2 scrollbar-hide border-b"
+        className="flex md:hidden justify-center py-2 px-2 border-b"
         style={{ scrollBehavior: "smooth", WebkitOverflowScrolling: "touch" }}
       >
-        <div className="flex w-max">
+        <div className="flex space-x-2">
           {locations.map((loc, index) => (
             <button
               key={index}
@@ -339,6 +304,7 @@ export default function GlobalPresence() {
         </div>
       </div>
 
+      {/* Desktop Tabs */}
       <div className="hidden md:flex justify-center space-x-6 mt-10 border-b overflow-x-auto">
         {locations.map((loc, index) => (
           <button
@@ -355,6 +321,7 @@ export default function GlobalPresence() {
         ))}
       </div>
 
+      {/* Mobile View */}
       <div
         className="md:hidden px-4 pb-6 mt-1"
         data-aos="fade-up"
@@ -373,7 +340,7 @@ export default function GlobalPresence() {
             ></iframe>
           </div>
           <div className="p-4">
-            <h3 className="text-base font-semibold text-gray-800 mb-3 truncate">
+            <h3 className="text-base font-semibold text-gray-800 mb-3 text-center md:text-left">
               {locations[activeTab].name}
             </h3>
             <div className="flex items-start space-x-2">
@@ -404,6 +371,7 @@ export default function GlobalPresence() {
         </div>
       </div>
 
+      {/* Desktop View */}
       <div
         className="hidden md:flex mt-10 max-w-7xl mx-auto flex-col md:flex-row items-start gap-12 px-6"
         data-aos="fade-up"
