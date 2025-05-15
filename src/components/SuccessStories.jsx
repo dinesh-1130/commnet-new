@@ -167,7 +167,7 @@ const SocialMediaSection = () => {
           {posts.map((post, index) => (
             <SwiperSlide key={index}>
               <div
-                className="bg-white rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-all duration-300 w-[280px] mx-auto h-[400px] flex flex-col justify-between"
+                className="bg-white rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-all duration-300 w-[330px] mx-auto h-[400px] flex flex-col justify-between"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
