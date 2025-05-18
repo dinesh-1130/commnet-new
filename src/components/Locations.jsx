@@ -812,7 +812,7 @@ export default function GlobalPresence() {
           </div>
         </div>
         
-        {/* Global Stats - Premium Style */}
+        {/* Global Stats - Premium Style
         <div className="bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-xl p-6 md:p-8 mb-8 md:mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-40 md:w-64 h-40 md:h-64 bg-gradient-to-br from-sky-100 to-indigo-100 rounded-full -translate-y-1/2 translate-x-1/2 opacity-70"></div>
           
@@ -863,7 +863,7 @@ export default function GlobalPresence() {
             ))}
           </div>
         </div>
-        
+         */}
         {/* Call To Action */}
         <div 
           className="bg-gradient-to-r from-red-600 to-red-700 rounded-xl md:rounded-2xl p-6 md:p-10 text-center shadow-lg md:shadow-xl relative overflow-hidden mb-6"

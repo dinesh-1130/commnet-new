@@ -150,12 +150,12 @@ const OurSolutions = () => {
       {/* Desktop row 1: first 6 cards in swiper */}
       <div className="hidden lg:block mb-10">
         <Swiper
-          modules={[Pagination]}
-          pagination={{ clickable: true }}
-          spaceBetween={24}
-          slidesPerView={4}
-          className="!pb-10"
-        >
+  modules={[]}
+  pagination={false}
+  spaceBetween={24}
+  slidesPerView={4}
+  className="!pb-10"
+>
           {solutionsWithContent.slice(0, 6).map((solution, index) => (
             <SwiperSlide key={index} className="!ml-2 !mr-2">
               <div
@@ -188,13 +188,13 @@ const OurSolutions = () => {
 
       {/* Desktop row 2: remaining 5 cards in swiper */}
       <div className="hidden lg:block">
-        <Swiper
-          modules={[Pagination]}
-          pagination={{ clickable: true }}
-          spaceBetween={24}
-          slidesPerView={4}
-          className="!pb-10"
-        >
+       <Swiper
+  modules={[]}
+  pagination={false}
+  spaceBetween={24}
+  slidesPerView={4}
+  className="!pb-10"
+>
           {solutionsWithContent.slice(6).map((solution, index) => (
             <SwiperSlide key={index + 6} className="!ml-2 !mr-2">
               <div

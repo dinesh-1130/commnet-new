@@ -227,71 +227,73 @@ export default function WhyChooseUs() {
       </section>
 
       {/* Vision, Mission, Benefits Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
-              Our <span className="text-sky-600">Vision & Mission</span>
-            </h2>
+   <section className="py-20 bg-sky-50">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl md:text-4xl font-bold text-sky-600">
+        Our <span className="text-sky-600">Vision & Mission</span>
+      </h2>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div data-aos="zoom-in" className="bg-white rounded-xl overflow-hidden shadow-lg">
+        <div className="h-2 bg-sky-600"></div>
+        <div className="p-8">
+          <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center mb-6 mx-auto">
+            <FaUserTie className="text-sky-600 text-2xl" />
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div data-aos="zoom-in" className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <div className="h-2 bg-sky-600"></div>
-              <div className="p-8">
-                <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center mb-6 mx-auto">
-                  <FaUserTie className="text-sky-600 text-2xl" />
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-800 mb-4">Our Vision</h3>
-                <p className="text-gray-600 text-center">
-                  To be the digital partner of choice by driving transformation through trusted and scalable IT solutions.
-                </p>
-              </div>
-            </div>
-            
-            <div data-aos="zoom-in" data-aos-delay="100" className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <div className="h-2 bg-indigo-600"></div>
-              <div className="p-8">
-                <div className="w-16 h-16 rounded-full bg-indigo-100 flex items-center justify-center mb-6 mx-auto">
-                  <FaHandshake className="text-indigo-600 text-2xl" />
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-800 mb-4">Our Mission</h3>
-                <p className="text-gray-600 text-center">
-                  We aim to build lasting partnerships by aligning our expertise with your success.
-                </p>
-              </div>
-            </div>
-            
-            <div data-aos="zoom-in" data-aos-delay="200" className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <div className="h-2 bg-red-500"></div>
-              <div className="p-8">
-                <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center mb-6 mx-auto">
-                  <FaMedal className="text-red-500 text-2xl" />
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-800 mb-4">Benefits With Us</h3>
-                <ul className="space-y-2 text-gray-600">
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 rounded-full bg-red-500 mr-2"></span>
-                    Better client service
-                  </li>
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 rounded-full bg-red-500 mr-2"></span>
-                    Boost agility
-                  </li>
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 rounded-full bg-red-500 mr-2"></span>
-                    Increase productivity
-                  </li>
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 rounded-full bg-red-500 mr-2"></span>
-                    Optimize IT infrastructure
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <h3 className="text-xl font-bold text-center text-sky-600 mb-4">Our Vision</h3>
+          <p className="text-black text-center">
+            To be the digital partner of choice by driving transformation through trusted and scalable IT solutions.
+          </p>
         </div>
-      </section>
+      </div>
+
+      <div data-aos="zoom-in" data-aos-delay="100" className="bg-white rounded-xl overflow-hidden shadow-lg">
+        <div className="h-2 bg-sky-600"></div>
+        <div className="p-8">
+          <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center mb-6 mx-auto">
+            <FaHandshake className="text-sky-600 text-2xl" />
+          </div>
+          <h3 className="text-xl font-bold text-center text-sky-600 mb-4">Our Mission</h3>
+          <p className="text-black text-center">
+            We aim to build lasting partnerships by aligning our expertise with your success.
+          </p>
+        </div>
+      </div>
+
+      <div data-aos="zoom-in" data-aos-delay="200" className="bg-white rounded-xl overflow-hidden shadow-lg">
+        <div className="h-2 bg-sky-600"></div>
+        <div className="p-8">
+          <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center mb-6 mx-auto">
+            <FaMedal className="text-sky-600 text-2xl" />
+          </div>
+          <h3 className="text-xl font-bold text-center text-sky-600 mb-4">Benefits With Us</h3>
+          <ul className="space-y-2 text-black">
+            <li className="flex items-center">
+              <span className="w-2 h-2 rounded-full bg-sky-600 mr-2"></span>
+              Better client service
+            </li>
+            <li className="flex items-center">
+              <span className="w-2 h-2 rounded-full bg-sky-600 mr-2"></span>
+              Boost agility
+            </li>
+            <li className="flex items-center">
+              <span className="w-2 h-2 rounded-full bg-sky-600 mr-2"></span>
+              Increase productivity
+            </li>
+            <li className="flex items-center">
+              <span className="w-2 h-2 rounded-full bg-sky-600 mr-2"></span>
+              Optimize IT infrastructure
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       {/* CTA Section */}
       <section className="py-16 bg-sky-600 text-white">
