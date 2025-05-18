@@ -33,23 +33,26 @@ export default function WhoWeAre() {
           </a>
         </div>
 
-        {/* Image Section */}
-        <div className="relative" data-aos="fade-left">
-          <div className="rounded-xl overflow-hidden shadow-xl w-full">
-            <img
-              src="/assets/press-4.jpg"
-              alt="Team"
-              className="w-full h-[360px] object-cover"
-            />
-          </div>
-          <div className="absolute -bottom-10 -left-10 w-48 rounded-lg overflow-hidden border-4 border-white shadow-lg">
-            <img
-              src="/assets/press-2.jpg"
-              alt="Inset"
-              className="w-full h-36 object-cover"
-            />
-          </div>
-        </div>
+  {/* Image Section */}
+<div className="relative" data-aos="fade-left">
+  <div className="rounded-xl overflow-hidden shadow-xl w-full">
+    <img
+      src="/assets/press-4.jpg"
+      alt="Team"
+      className="w-full h-[360px] object-cover rounded-xl"
+    />
+  </div>
+
+  {/* Overlapping Image - adjusted for mobile */}
+  <div className="absolute bottom-[-30px] left-[-20px] md:bottom-[-40px] md:left-[-40px] w-32 md:w-48 rounded-lg overflow-hidden border-4 border-white shadow-lg">
+    <img
+      src="/assets/press-2.jpg"
+      alt="Inset"
+      className="w-full h-24 md:h-36 object-cover"
+    />
+  </div>
+</div>
+
       </div>
     </section>
   );
