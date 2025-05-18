@@ -38,3 +38,9 @@ html {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+.no-grayscale {
+  filter: none !important;
+  -webkit-filter: none !important;
+  transition: none !important;
+}

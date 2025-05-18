@@ -34,8 +34,8 @@ import TermsAndConditions from "./components/InnerPages/TermsAndConditions";
 import PrivacyPolicy from "./components/InnerPages/PrivacyPolicy";
 import Brochure from "./components/InnerPages/Brochure"
 
-
-
+import Whoweare from "./components/Whoweare"
+import WhyChooseUs from "./components/InnerPages/Whychooseus";
 
 function Home() {
   return (
@@ -48,6 +48,7 @@ function Home() {
       <OurSolutions />
       <SocialResponsibility />
       <SuccessStories />
+      <Whoweare />
       <SocialMediaSection />
       {/* <Posts /> */}
       <Locations />
@@ -83,6 +84,7 @@ export default function App() {
           <Route path="/websitedevelopment" element={<WebsiteDevelopment />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/aboutus" element={< Aboutus/>} />
+          <Route path="/why-choose-us" element={<WhyChooseUs />} />
           <Route path="/brochure" element={<Brochure />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsAndConditions" element={<TermsAndConditions />} />

@@ -3,12 +3,16 @@ import { useState, useEffect } from "react";
 import {
   User,
   Server,
-  Shield,
+  ShieldCheck,
+  ShieldHalf,
   Code2,
   MonitorSmartphone,
   Lock,
-  Globe,
-  Cpu,
+  Globe2,
+  BatteryCharging,
+  Laptop,
+  LayoutTemplate,
+  Database,
   Menu,
   Phone,
   X,
@@ -33,27 +37,24 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [showDropdown]);
 
-
-
-
-
-
-
-
-  
-  const services = [
+const services = [
     {
       icon: <Server />,
       label: "Enterprise Systems Group",
       link: "/enterprise-systems-group",
     },
     {
-      icon: <Shield />,
+      icon: <ShieldCheck />,
       label: "Information Security",
       link: "/informationsecurity",
     },
-    { icon: <Globe />, label: "IoT Services", link: "/iotservices" },
-    { icon: <Cpu />, label: "Power Solutions", link: "/powersolutions" },
+    {
+      icon: <Globe2 />,
+      label: "IoT Services",
+      link: "/iotservices",
+    },
+  { icon: <BatteryCharging />, label: "Power Solutions", link: "/powersolutions" },
+
     {
       icon: <MonitorSmartphone />,
       label: "AV Solutions",
@@ -65,27 +66,32 @@ export default function Navbar() {
       link: "/professionalitservices",
     },
     {
-      icon: <Server />,
+      icon: <Database />,
       label: "Infrastructure Systems Group",
       link: "/infrastructuresystemgroup",
     },
     {
-      icon: <Code2 />,
+      icon: <LayoutTemplate />,
       label: "Website Development",
       link: "/websitedevelopment",
     },
     {
-      icon: <Code2 />,
+      icon: <Laptop />,
       label: "Software Development",
       link: "/softwaredevelopment",
     },
-    { icon: <Lock />, label: "Security Systems", link: "/securitysystems" },
     {
-      icon: <Shield />,
+      icon: <Lock />,
+      label: "Security Systems",
+      link: "/securitysystems",
+    },
+    {
+      icon: <ShieldHalf />,
       label: "Cyber Security Services",
       link: "/cybersecurityservices",
     },
   ];
+
 
   return (
     <div className="relative font-['Lato']">

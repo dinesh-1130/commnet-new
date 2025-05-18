@@ -82,27 +82,30 @@ const OurSolutions = () => {
   }, []);
 
   return (
-    <div className="relative overflow-hidden bg-white">
-      <img
-        src="/assets/bg-7.jpg"
-        alt="bg"
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      />
-      <div className="absolute inset-0 bg-white/80 z-0" />
 
-      <div className="relative z-10 max-w-[1440px] mx-auto py-20 px-5 lg:px-10">
-        <div className="flex flex-col md:flex-row gap-6 mb-10" data-aos="fade-up">
-          <div>
-            <div className="border px-4 py-2 rounded-xl font-medium text-xl lg:text-2xl bg-white/80 w-fit">
-              Our Solutions
-            </div>
+  <div className="relative overflow-hidden bg-white">
+    <img
+      src="/assets/bg-7.jpg"
+      alt="bg"
+      className="absolute inset-0 w-full h-full object-cover z-0"
+    />
+    <div className="absolute inset-0 bg-white/80 z-0" />
+
+    <div className="relative z-10 max-w-[1440px] mx-auto py-20 px-5 lg:px-10">
+      <div className="flex flex-col md:flex-row gap-6 mb-10" data-aos="fade-up">
+        <div>
+          <div className="border px-4 py-2 rounded-xl font-medium text-xl lg:text-2xl bg-white/80 w-fit">
+            Our Solutions
           </div>
-          <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold tracking-tight leading-snug text-sky-600">
-            Turn your business vision into reality with{" "}
-            <span className="text-red-600">end-to-end IT Solutions</span>
-          </h2>
         </div>
+        <h2 className="text-2xl lg:text-3xl xl:text-4xl font-semibold tracking-tight leading-snug text-sky-600">
+          Turn your business vision into reality with{" "}
+          <span className="text-red-600">end-to-end IT Solutions</span>
+        </h2>
+      </div>
 
+      {/* For mobile: show all cards in a single swiper */}
+      <div className="lg:hidden">
         <Swiper
           modules={[Pagination]}
           pagination={{ clickable: true }}
@@ -111,9 +114,8 @@ const OurSolutions = () => {
             320: { slidesPerView: 1.1, spaceBetween: 20 },
             640: { slidesPerView: 1.5, spaceBetween: 24 },
             768: { slidesPerView: 2, spaceBetween: 24 },
-            1024: { slidesPerView: 4, spaceBetween: 24 },
           }}
-          className="!pb-10 "
+          className="!pb-10"
         >
           {solutionsWithContent.map((solution, index) => (
             <SwiperSlide key={index} className="!ml-2 !mr-2">
@@ -144,8 +146,86 @@ const OurSolutions = () => {
           ))}
         </Swiper>
       </div>
-    </div>
-  );
-};
 
+      {/* Desktop row 1: first 6 cards in swiper */}
+      <div className="hidden lg:block mb-10">
+        <Swiper
+          modules={[Pagination]}
+          pagination={{ clickable: true }}
+          spaceBetween={24}
+          slidesPerView={4}
+          className="!pb-10"
+        >
+          {solutionsWithContent.slice(0, 6).map((solution, index) => (
+            <SwiperSlide key={index} className="!ml-2 !mr-2">
+              <div
+                className="bg-white rounded-2xl shadow-md p-6 h-[360px] w-[320px] mx-auto flex flex-col justify-between overflow-hidden"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">
+                    {String(index + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="text-lg font-semibold mb-2">
+                    {solution.title}
+                  </h3>
+                  <p className="text-gray-700 text-sm whitespace-pre-line line-clamp-[8]">
+                    {solution.description}
+                  </p>
+                </div>
+                <a
+                  href={solution.link}
+                  className="text-sky-600 text-sm font-medium mt-4 hover:underline"
+                >
+                  Find More
+                </a>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      {/* Desktop row 2: remaining 5 cards in swiper */}
+      <div className="hidden lg:block">
+        <Swiper
+          modules={[Pagination]}
+          pagination={{ clickable: true }}
+          spaceBetween={24}
+          slidesPerView={4}
+          className="!pb-10"
+        >
+          {solutionsWithContent.slice(6).map((solution, index) => (
+            <SwiperSlide key={index + 6} className="!ml-2 !mr-2">
+              <div
+                className="bg-white rounded-2xl shadow-md p-6 h-[360px] w-[320px] mx-auto flex flex-col justify-between overflow-hidden"
+                data-aos="fade-up"
+                data-aos-delay={(index + 6) * 100}
+              >
+                <div>
+                  <p className="text-sm text-gray-500 mb-1">
+                    {String(index + 7).padStart(2, "0")}
+                  </p>
+                  <h3 className="text-lg font-semibold mb-2">
+                    {solution.title}
+                  </h3>
+                  <p className="text-gray-700 text-sm whitespace-pre-line line-clamp-[8]">
+                    {solution.description}
+                  </p>
+                </div>
+                <a
+                  href={solution.link}
+                  className="text-sky-600 text-sm font-medium mt-4 hover:underline"
+                >
+                  Find More
+                </a>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  </div>
+);
+}
 export default OurSolutions;

@@ -105,18 +105,18 @@ export default function ContactPage() {
               />
               <input placeholder="Phone" className="border-b p-2 outline-none" />
               <input placeholder="Email" className="border-b p-2 outline-none" />
-              <input
+              {/* <input
                 placeholder="Job Title"
                 className="border-b p-2 outline-none"
-              />
+              /> */}
               <input
                 placeholder="Company Name"
                 className="border-b p-2 outline-none"
               />
-              <input
+              {/* <input
                 placeholder="Industry"
                 className="border-b p-2 outline-none"
-              />
+              /> */}
               <input
                 placeholder="Country"
                 className="border-b p-2 outline-none"

@@ -1,5 +1,13 @@
 
+// import { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+
 // const TrustedBy = () => {
+//   useEffect(() => {
+//     AOS.init({ duration: 800, once: true });
+//   }, []);
+
 //   const logos = [
 //     "Picture1.png",
 //     "Picture2.png",
@@ -21,12 +29,12 @@
 //   const repeatedLogos = [...logos, ...logos]; // Duplicate for seamless loop
 
 //   return (
-//     <div className="relative py-10 bg-white overflow-hidden">
+//     <div className="relative py-10 bg-white overflow-hidden" data-aos="fade-up">
 //       <div className="absolute inset-0 bg-white/90 backdrop-blur-sm z-0"></div>
 
 //       <div className="relative z-10 w-full px-4">
-//         <h2 className="text-center text-xl font-semibold text-blue-700 mb-8">
-//           Trusted By Global Leaders
+//         <h2 className="text-center text-xl font-semibold text-sky-700 mb-8">
+//           Trusted By 
 //         </h2>
 
 //         {/* Continuous Marquee */}
@@ -92,8 +100,6 @@ const TrustedBy = () => {
 
   return (
     <div className="relative py-10 bg-white overflow-hidden" data-aos="fade-up">
-      <div className="absolute inset-0 bg-white/90 backdrop-blur-sm z-0"></div>
-
       <div className="relative z-10 w-full px-4">
         <h2 className="text-center text-xl font-semibold text-sky-700 mb-8">
           Trusted By 
@@ -107,7 +113,7 @@ const TrustedBy = () => {
                 key={index}
                 src={`./assets/${logo}`}
                 alt={`Client ${index}`}
-                className="h-[40px] w-auto grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition duration-300"
+                className="h-[40px] w-auto transition duration-300"
               />
             ))}
           </div>
