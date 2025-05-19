@@ -84,9 +84,14 @@ export default function PremiumProjectsPage() {
         className="w-full bg-[url('/assets/sample-5.jpg')] bg-cover bg-center py-20"
         data-aos="fade-down"
       >
-        <h1 className="text-4xl font-bold text-center text-white drop-shadow-lg ml-[100px]">
-          Our Premier Projects
-        </h1>
+      <h1 className="hidden md:block text-4xl font-bold text-center text-white drop-shadow-lg ml-[100px]">
+  Our Premier Projects
+</h1>
+
+{/* Mobile Heading */}
+<h1 className="block md:hidden text-3xl font-bold text-center text-white px-4">
+  Our Premier Projects
+</h1>
       </div>
 
       {/* ✅ Main project section */}
