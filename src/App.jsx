@@ -44,11 +44,12 @@ function Home() {
       <div id="about">
         <About />
       </div>
-      <TrustedBy />
+      
       <OurSolutions />
       <SocialResponsibility />
       <SuccessStories />
       <Whoweare />
+      <TrustedBy />
       <SocialMediaSection />
       {/* <Posts /> */}
       <Locations />
