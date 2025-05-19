@@ -91,11 +91,7 @@ const services = [
       label: "Cyber Security Services",
       link: "/cybersecurityservices",
     },
- {
-  icon: <FolderKanban />,
-  label: "ourprojects",
-  link: "/ourprojects",
-}
+
   ];
 
 
@@ -132,6 +128,12 @@ const services = [
             className="relative cursor-pointer"
           >
             <span>Services</span>
+          </li>
+          <li>
+            <a href="/ourprojects" onClick={() => setMobileMenuOpen(false)}>
+              Our Projects
+            </a>
+          
           </li>
           <li>
             <a href="/contactus" onClick={() => setMobileMenuOpen(false)}>
@@ -300,6 +302,12 @@ const services = [
                 ))}
               </ul>
             )}
+            <li>
+            <a href="/ourprojects" onClick={() => setMobileMenuOpen(false)}>
+              Our Projects
+            </a>
+          
+          </li>
            <li>
             <a href="/contactus" onClick={() => setMobileMenuOpen(false)}>
               Contact Us
