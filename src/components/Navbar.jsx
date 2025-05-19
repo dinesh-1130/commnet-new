@@ -131,7 +131,7 @@ const services = [
           </li>
           <li>
             <a href="/ourprojects" onClick={() => setMobileMenuOpen(false)}>
-              Our Projects
+              Projects
             </a>
           
           </li>
@@ -303,7 +303,7 @@ const services = [
               </ul>
             )}
             <li>
-            <a href="/ourprojects" onClick={() => setMobileMenuOpen(false)}>
+            <a href="/Projects" onClick={() => setMobileMenuOpen(false)}>
               Our Projects
             </a>
           
