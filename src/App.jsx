@@ -36,7 +36,7 @@ import Brochure from "./components/InnerPages/Brochure"
 
 import Whoweare from "./components/Whoweare"
 import WhyChooseUs from "./components/InnerPages/Whychooseus";
-
+import OurProjects from "./components/InnerPages/OurProjects"
 function Home() {
   return (
     <>
@@ -88,6 +88,7 @@ export default function App() {
           <Route path="/brochure" element={<Brochure />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
+          <Route path="/ourprojects" element={<OurProjects />} />
         </Routes>
      
           <Footer />

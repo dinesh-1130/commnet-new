@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/preset-links": "^3.2.0",
+    "@tsparticles/react": "^3.0.0",
     "aos": "^2.3.4",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.507.0",
@@ -20,9 +23,11 @@
     "react-pageflip": "^2.0.3",
     "react-pdf": "^9.2.1",
     "react-router-dom": "^7.6.0",
+    "react-tsparticles": "^2.12.2",
     "recharts": "^2.15.3",
     "swiper": "^11.2.6",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

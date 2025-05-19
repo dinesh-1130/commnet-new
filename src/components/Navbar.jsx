@@ -17,6 +17,7 @@ import {
   Phone,
   X,
   ChevronDown,
+  FolderKanban 
 } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 
@@ -90,6 +91,11 @@ const services = [
       label: "Cyber Security Services",
       link: "/cybersecurityservices",
     },
+ {
+  icon: <FolderKanban />,
+  label: "ourprojects",
+  link: "/ourprojects",
+}
   ];
 
 
