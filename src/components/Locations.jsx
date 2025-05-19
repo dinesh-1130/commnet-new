@@ -573,10 +573,10 @@ export default function GlobalPresence() {
         <div className="inline-block px-4 py-1 rounded-full bg-sky-50 border border-sky-500 text-sky-600 text-sm mb-2">
           Our Global Presence
         </div>
-        <h2 className="text-xl md:text-4xl font-bold text-gray-800 mb-1">
+        {/* <h2 className="text-xl md:text-4xl font-bold text-gray-800 mb-1">
           A local company with{" "}
           <span className="text-sky-600 md:text-red-600">Global Standards</span>
-        </h2>
+        </h2> */}
         <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto mt-4">
           We are proud to serve clients worldwide with offices strategically located across continents,
           bringing our expertise closer to you.
