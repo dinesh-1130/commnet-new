@@ -89,7 +89,7 @@ export default function OurProjectsPage() {
         <div className="absolute inset-0 bg-sky-900 opacity-90"></div>
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{backgroundImage: "url('/api/placeholder/1920/1080')"}}
+         style={{ backgroundImage: "url('/assets/sample-5.jpg')" }}
         />
         
         <div className="relative container mx-auto px-6 text-center">
