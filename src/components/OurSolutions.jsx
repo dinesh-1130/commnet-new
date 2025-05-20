@@ -8,47 +8,55 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const solutionsWithContent = [
+   {
+    title: "Infrastructure Systems Group",
+    description:
+      "Commnet has a specialized team of cabling professionals trained and experienced on various low current solutions. We undertake turnkey ELV projects from scratch and commission them to best industry standards.\n\nBe it coaxial cabling for traditional analog video, CCTV, latest technology enhanced IP-based CCTV/IPTV, UTP & Fiber cabling for high-speed data needs.",
+    link: "/infrastructuresystemgroup",
+  },
+   {
+    title: "Cyber Security Services",
+    description:
+      "In today’s hyper-connected world, cybersecurity is no longer an option—it is a necessity. As businesses undergo digital transformation, the attack surface expands, leaving organizations vulnerable to ever-evolving cyber threats. At Commnet, we understand the critical need for a comprehensive cybersecurity strategy that protects your digital assets while enabling growth and innovation.",
+    link: "/cybersecurityservices",
+  },
   {
     title: "Enterprise Systems Group",
     description:
       "Organizations are looking at ways to meet the IT demands of business while providing innovative services that give them business agility and competitive advantage. One of the key focuses of commnet DC Transformation and Operation services is the dynamic alignment of business requirements and IT systems that deliver efficiencies that drive down costs, optimize resources, and enable innovation. Enterprises are witnessing exponential growths, with innovation in supply chain, multiple delivery channels for customers and their relationships with global spread.",
     link: "/enterprise-systems-group",
   },
-  {
-    title: "Information Security",
-    description:
-      "ISO/IEC 27001 is a standard designed to ensure the selection of adequate and proportionate security controls to help you manage and protect your valuable information assets. Our security consultants evaluate your organisation's security policies, procedures, standards and organisation structure against the ISO27001 standard.",
-    link: "/informationsecurity",
-  },
-  {
-    title: "Internet of Things (IoT)",
-    description:
-      "The Internet of Things is here and information access to the network is even more profound as homes, buildings, offices and even the whole city begins to connect to each other, providing a whole new experience of a connected world and a seamless virtual reality which can only be made possible through strong connectivity.",
-    link: "/iotservices",
-  },
-  {
-    title: "Power Solutions",
-    description:
-      "Our goal is ensure a secure supply of energy and cooling for you.\n\nAREAS OF EXPERTISE:\n- UPS and Power Distribution Systems\n- Security, Real Time Monitoring, Management & Control Systems\n- Emergency Diesel Generators\n- Cooling Systems",
-    link: "/powersolutions",
-  },
-  {
-    title: "AV Solutions",
-    description:
-      "Commnet deploy our design talents and engineering capabilities to deliver customized user-friendly AV solutions that meet client expectations, budgets and timeframes.\n\nAREAS OF EXPERTISE:\n- Intelligent Video Solutions for Educational, Medical and Law Enforcement\n- Command & Control Centers and Crisis Management Centers\n- Theaters, Auditoriums and Multi-purpose Halls\n- Smart Meeting Rooms, and Innovation Centers",
-    link: "/avsolutions",
-  },
-  {
+
+    {
     title: "Professional IT Services",
     description:
       "Expert technical solutions customized to enterprise needs across infrastructure, development, and deployment.These services are tailored to align with an organization’s goals, improve efficiency, ensure data security, and support digital transformation.",
     link: "/professionalitservices",
   },
-  {
-    title: "Infrastructure Systems Group",
+    {
+    title: "Security Systems",
     description:
-      "Commnet has a specialized team of cabling professionals trained and experienced on various low current solutions. We undertake turnkey ELV projects from scratch and commission them to best industry standards.\n\nBe it coaxial cabling for traditional analog video, CCTV, latest technology enhanced IP-based CCTV/IPTV, UTP & Fiber cabling for high-speed data needs.",
-    link: "/infrastructuresystemgroup",
+      "We are dedicated to build positive relationships with our customers by understanding our client’s business needs and provide them with the most professional and high quality services that fulfill them, whether its Residential, Retail, Commercial, Industrial or Governmental.",
+    link: "/securitysystems",
+  },
+    {
+    title: "Power Solutions",
+    description:
+      "Our goal is ensure a secure supply of energy and cooling for you.\n\nAREAS OF EXPERTISE:\n- UPS and Power Distribution Systems\n- Security, Real Time Monitoring, Management & Control Systems\n- Emergency Diesel Generators\n- Cooling Systems",
+    link: "/powersolutions",
+  },
+   {
+    title: "Internet of Things (IoT)",
+    description:
+      "The Internet of Things is here and information access to the network is even more profound as homes, buildings, offices and even the whole city begins to connect to each other, providing a whole new experience of a connected world and a seamless virtual reality which can only be made possible through strong connectivity.",
+    link: "/iotservices",
+  },
+
+    {
+    title: "AV Solutions",
+    description:
+      "Commnet deploy our design talents and engineering capabilities to deliver customized user-friendly AV solutions that meet client expectations, budgets and timeframes.\n\nAREAS OF EXPERTISE:\n- Intelligent Video Solutions for Educational, Medical and Law Enforcement\n- Command & Control Centers and Crisis Management Centers\n- Theaters, Auditoriums and Multi-purpose Halls\n- Smart Meeting Rooms, and Innovation Centers",
+    link: "/avsolutions",
   },
   {
     title: "Website Development",
@@ -62,18 +70,20 @@ const solutionsWithContent = [
       "We are Developing Best Website and Customized Softwares with cutting edge technology applications.\n\nWe are the most experienced and highly trusted Website and Software Development Company in Dubai. Our best professional team design both Software and Websites starting from small startups to large enterprises.",
     link: "/softwaredevelopment",
   },
+ 
   {
-    title: "Security Systems",
+    title: "Information Security",
     description:
-      "We are dedicated to build positive relationships with our customers by understanding our client’s business needs and provide them with the most professional and high quality services that fulfill them, whether its Residential, Retail, Commercial, Industrial or Governmental.",
-    link: "/securitysystems",
+      "ISO/IEC 27001 is a standard designed to ensure the selection of adequate and proportionate security controls to help you manage and protect your valuable information assets. Our security consultants evaluate your organisation's security policies, procedures, standards and organisation structure against the ISO27001 standard.",
+    link: "/informationsecurity",
   },
-  {
-    title: "Cyber Security Services",
-    description:
-      "In today’s hyper-connected world, cybersecurity is no longer an option—it is a necessity. As businesses undergo digital transformation, the attack surface expands, leaving organizations vulnerable to ever-evolving cyber threats. At Commnet, we understand the critical need for a comprehensive cybersecurity strategy that protects your digital assets while enabling growth and innovation.",
-    link: "/cybersecurityservices",
-  },
+ 
+
+
+
+ 
+  
+
 ];
 
 const OurSolutions = () => {

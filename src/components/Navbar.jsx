@@ -413,27 +413,25 @@ export default function Navbar() {
       label: "Information Security",
       link: "/informationsecurity",
     },
-    {
-      icon: <Globe2 />,
-      label: "IoT Services",
-      link: "/iotservices",
+      {
+      icon: <Database />,
+      label: "Infrastructure Systems Group",
+      link: "/infrastructuresystemgroup",
     },
+     {
+      icon: <Code2 />,
+      label: "Professional IT Services",
+      link: "/professionalitservices",
+    },
+
     { icon: <BatteryCharging />, label: "Power Solutions", link: "/powersolutions" },
     {
       icon: <MonitorSmartphone />,
       label: "AV Solutions",
       link: "/avsolutions",
     },
-    {
-      icon: <Code2 />,
-      label: "Professional IT Services",
-      link: "/professionalitservices",
-    },
-    {
-      icon: <Database />,
-      label: "Infrastructure Systems Group",
-      link: "/infrastructuresystemgroup",
-    },
+   
+  
     {
       icon: <LayoutTemplate />,
       label: "Website Development",
@@ -443,6 +441,11 @@ export default function Navbar() {
       icon: <Laptop />,
       label: "Software Development",
       link: "/softwaredevelopment",
+    },
+        {
+      icon: <Globe2 />,
+      label: "IoT Services",
+      link: "/iotservices",
     },
     {
       icon: <Lock />,
