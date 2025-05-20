@@ -199,12 +199,12 @@ export default function IndustriesModern() {
                 <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
               </div>
               <div className="pt-5">
-                <a
+                {/* <a
                   href="#"
                   className="inline-block px-4 py-1 text-sm bg-sky-50 text-sky-700 rounded-full font-medium hover:bg-sky-100 transition"
                 >
                   Read More →
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
@@ -230,12 +230,12 @@ export default function IndustriesModern() {
                     <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
                   </div>
                   <div className="pt-5">
-                    <a
+                    {/* <a
                       href="#"
                       className="inline-block px-4 py-1 text-sm bg-sky-50 text-sky-700 rounded-full font-medium hover:bg-sky-100 transition"
                     >
                       Read More →
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </SwiperSlide>

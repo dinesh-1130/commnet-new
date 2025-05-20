@@ -292,7 +292,7 @@ import HTMLFlipBook from "react-pageflip";
 import { Document, Page, pdfjs } from "react-pdf";
 import pdfFile from "/assets/Commnet.pdf";
 import flipSound from "/assets/flip.mp3";
-
+import { FaEye } from "react-icons/fa";
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",
   import.meta.url
@@ -335,14 +335,15 @@ function Aboutus() {
           <OurJourney />
           <div className="w-full flex justify-center items-center gap-4">
             <div className="relative">
-              <button
-                onClick={() => setShowFlipbook(true)}
-                onMouseEnter={() => setShowTooltip(true)}
-                onMouseLeave={() => setShowTooltip(false)}
-                className="px-6 py-2 mt-6 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition"
-              >
-                View Brochure
-              </button>
+             <button
+  onClick={() => setShowFlipbook(true)}
+  onMouseEnter={() => setShowTooltip(true)}
+  onMouseLeave={() => setShowTooltip(false)}
+  className="flex items-center gap-2 px-6 py-2 mt-6 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition"
+>
+  <FaEye className="w-4 h-4" />
+  View Brochure
+</button>
               {showTooltip && (
                 <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 bg-black text-white text-sm rounded p-2 shadow-lg">
                   <p>Click and drag the corners to flip pages. Use mouse wheel to zoom.</p>
@@ -374,8 +375,8 @@ const AboutDetails = () => (
     <div className="text-[2em] lg:text-[2.5em] xl:text-[3em] font-semibold tracking-tighter leading-[1.14] mb-0">
       Who We Are
     </div>
-    <p className="text-2xl font-semibold tracking-tight text-justify">
-      At <span className="text-sky-600">Commnet</span>, we strive to deliver value through the combination of right people, processes, technologies and program management solutions. Our methods include applying domain expertise in specific industry segments, utilizing a highly-skilled workforce, leveraging a proven global delivery model, implementing structured and scalable quality processes and methodologies and yet, staying cost-effective.
+    <p className="text-2xl tracking-tight text-justify">
+      At <span className="text-sky-600 font-semibold ">Commnet</span>, we strive to deliver value through the combination of right people, processes, technologies and program management solutions. Our methods include applying domain expertise in specific industry segments, utilizing a highly-skilled workforce, leveraging a proven global delivery model, implementing structured and scalable quality processes and methodologies and yet, staying cost-effective.
     </p>
   </div>
 );

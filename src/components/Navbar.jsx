@@ -370,11 +370,14 @@ import {
   Menu,
   Phone,
   X,
+
   ChevronDown,
   FolderKanban,
   Users,
   Building
 } from "lucide-react";
+import { FaFolderOpen } from "react-icons/fa";
+
 import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -457,6 +460,11 @@ export default function Navbar() {
       label: "Cyber Security Services",
       link: "/cybersecurityservices",
     },
+   {
+  icon: <FaFolderOpen />,
+  label: "our projects",
+  link: "/ourprojects",
+}
   ];
 
   const aboutItems = [
@@ -511,7 +519,7 @@ export default function Navbar() {
             <span>Services</span>
           </li>
           <li>
-            <a href="/ourprojects" onClick={() => setActiveDropdown(null)}>
+            <a href="/ourprojects1" onClick={() => setActiveDropdown(null)}>
               Projects
             </a>
           </li>
@@ -540,7 +548,7 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Desktop Services Dropdown */}
+    
       {activeDropdown === 'services' && (
         <div
           className="hidden lg:grid fixed top-[65px] left-0 w-full z-40 px-12 py-12 bg-sky-600 text-white grid-cols-12 gap-6"
@@ -619,7 +627,8 @@ export default function Navbar() {
             </button> */}
           </div>
           <div className="col-span-6 px-6 border-r">
-            <div className="grid grid-cols-2 gap-6">
+            <div className="flex flex-col items-center justify-center gap-6 h-full">
+
               {aboutItems.map((item, index) => (
                 <NavLink
                   key={index}

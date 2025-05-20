@@ -507,17 +507,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const locations = [
-  {
-    name: "Dubai - UAE",
-    address:
-      "Office No.301, Centurion Star Building, Tower A, Port Saeed Dubai, UAE, PO Box 117133",
-    lat: 25.2532,
-    lon: 55.3657,
-    phone: "+971 4 123 4567",
-    email: "info@commnetsysconsult.com",
-    hours: "Monday - Friday: 9:00 AM - 6:00 PM",
-    timezone: "Local Time (GMT+4)"
-  },
+{
+  name: "Dubai - UAE",
+  address:
+    "Office No.301, Centurion Star Building, Tower A, Port Saeed Dubai, UAE, PO Box 117133",
+  lat: 25.251729,
+  lon: 55.333953,
+  phone: "+971 4 123 4567",
+  email: "info@commnetsysconsult.com",
+  hours: "Monday - Friday: 9:00 AM - 6:00 PM",
+  timezone: "Local Time (GMT+4)"
+},
+
  {
   name: "India",
   address:
@@ -666,13 +667,13 @@ export default function GlobalPresence() {
           {/* Left Column - Details */}
           <div className="col-span-1 md:col-span-5">
             <div className="bg-white rounded-xl md:rounded-2xl shadow-lg md:shadow-xl overflow-hidden h-full">
-              <div className="bg-gradient-to-r from-red-600 to-red-700 px-6 md:px-8 py-4 md:py-6 relative">
+              <div className="bg-gradient-to-r from-red-500 to-red-500 px-6 md:px-8 py-4 md:py-6 relative">
                 <div className="absolute top-0 right-0 w-16 md:w-20 h-16 md:h-20 bg-white opacity-10 rounded-bl-full"></div>
                 <div className="inline-block px-3 py-1 rounded-full bg-white bg-opacity-20 text-white text-xs md:text-sm font-medium mb-1 md:mb-2">
                   {locations[activeTab].name}
                 </div>
                 <h4 className="text-xl md:text-2xl font-bold text-white">
-                  Connect With Our Office
+                  Let’s Connect
                 </h4>
               </div>
               
@@ -744,7 +745,7 @@ export default function GlobalPresence() {
                 </div>
                 
                 <div className="flex space-x-3 md:space-x-4">
-                  <button className="flex-1 bg-white border-2 border-sky-600 text-sky-600 hover:bg-sky-50 font-medium py-2 md:py-3 px-4 md:px-6 rounded-lg transition-all shadow-md md:shadow-lg shadow-sky-100 flex items-center justify-center text-sm md:text-base">
+                  {/* <button className="flex-1 bg-white border-2 border-sky-600 text-sky-600 hover:bg-sky-50 font-medium py-2 md:py-3 px-4 md:px-6 rounded-lg transition-all shadow-md md:shadow-lg shadow-sky-100 flex items-center justify-center text-sm md:text-base">
                     <svg 
                       className="w-4 h-4 md:w-5 md:h-5 mr-1" 
                       fill="none" 
@@ -761,7 +762,7 @@ export default function GlobalPresence() {
                     <a
                     href="/contactus">
                       Contact Us</a>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -867,7 +868,7 @@ export default function GlobalPresence() {
          */}
         {/* Call To Action */}
         <div 
-          className="bg-gradient-to-r from-red-600 to-red-700 rounded-xl md:rounded-2xl p-6 md:p-10 text-center shadow-lg md:shadow-xl relative overflow-hidden mb-6"
+          className="bg-gradient-to-r from-red-500 to-red-500 rounded-xl md:rounded-2xl p-6 md:p-10 text-center shadow-lg md:shadow-xl relative overflow-hidden mb-6"
           data-aos="fade-up"
         >
           {/* Decorative elements */}
@@ -881,7 +882,7 @@ export default function GlobalPresence() {
           
           <div className="flex flex-wrap justify-center gap-3 md:gap-4 relative z-10">
             <a
-  href="/aboutus"
+  href="/contactus"
   className="bg-transparent border-2 border-white text-white hover:bg-white hover:bg-opacity-10 font-medium py-2 md:py-3 px-6 md:px-8 rounded-lg transition-all text-sm md:text-base"
 >
   Learn More
