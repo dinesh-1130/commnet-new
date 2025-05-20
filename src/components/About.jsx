@@ -66,7 +66,7 @@ const About = () => {
           data-aos="fade-right"
           className="border px-4 py-2 rounded-xl font-medium lg:text-2xl "
         >
-          About COMMNET
+          About Commnet
         </div>
         <div
           className="h-full max-w-[300px] w-full hidden lg:block rounded-xl overflow-hidden"
@@ -88,7 +88,7 @@ const About = () => {
           data-aos="fade-up"
           className="text-[2em] lg:text-[2.5em] xl:text-[3em] font-semibold tracking-tighter leading-[1.14] mb-0"
         >
-          At <span className="text-sky-600">COMMNET, </span>
+          At <span className="text-sky-600">Commnet, </span>
           we deliver value by combining the right people, processes,
           technologies, and proven methodologies to offer scalable,
           cost-effective solutions tailored to client needs

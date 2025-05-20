@@ -518,17 +518,18 @@ const locations = [
     hours: "Monday - Friday: 9:00 AM - 6:00 PM",
     timezone: "Local Time (GMT+4)"
   },
-  {
-    name: "India",
-    address:
-      "Office No.301, Centurion Star Building, Tower A, Port Saeed Dubai, UAE, PO Box 117133",
-    lat: 25.2532,
-    lon: 55.3657,
-    phone: "+91 11 4567 8901",
-    email: "india@company.com",
-    hours: "Monday - Friday: 9:30 AM - 6:30 PM",
-    timezone: "Local Time (GMT+5:30)"
-  },
+ {
+  name: "India",
+  address:
+    "Office No 7/1, KKSK Building, 1st Floor, Visvanathar Koil St, St. Thomas Mount, Chennai-600016",
+  lat: 13.0064,
+  lon: 80.1986,
+  phone: "+91 7558164222",
+  email: "india@company.com",
+  hours: "Monday - Friday: 9:30 AM - 6:30 PM",
+  timezone: "Local Time (GMT+5:30)"
+},
+
 ];
 
 const getMapEmbedUrl = (lat, lon) =>
