@@ -457,15 +457,16 @@ export default function Navbar() {
   ];
 
   const aboutItems = [
-    {
-      icon: <Users />,
-      label: "Our Leadership",
-      link: "/why-choose-us",
-    },
+  
     {
       icon: <Building />,
       label: "Who We Are",
       link: "/aboutus",
+    },
+      {
+      icon: <Users />,
+      label: "Our Leadership",
+      link: "/why-choose-us",
     },
   ];
 
@@ -480,11 +481,14 @@ export default function Navbar() {
             : "bg-transparent text-white"
         }`}
       >
-        <img
-          src="/assets/logo-newone.png"
-          alt="COMMNET Logo"
-          className="h-12 w-auto"
-        />
+   <a href="/">
+  <img
+    src="/assets/logo-newone.png"
+    alt="COMMNET Logo"
+    className="h-12 w-auto"
+  />
+</a>
+
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex space-x-10 text-base font-medium text-inherit">
@@ -540,15 +544,15 @@ export default function Navbar() {
           data-aos="fade-down"
         >
           <div className="col-span-3 border-r pr-6">
-            <h2 className="text-2xl font-bold mb-4">Solutions</h2>
+            {/* <h2 className="text-2xl font-bold mb-4">Solutions</h2>
             <p className="text-sm text-white/90">
               We offer the region's broadest portfolio of solutions, including
               industry-leading technology, security and infrastructure
               solutions.
-            </p>
-            <button className="mt-6 w-fit bg-white text-black px-6 py-3 rounded-full text-sm font-semibold">
+            </p> */}
+            {/* <button className="mt-6 w-fit bg-white text-black px-6 py-3 rounded-full text-sm font-semibold">
               Read More
-            </button>
+            </button> */}
           </div>
           <div className="col-span-6 grid grid-cols-3 gap-4 px-6 border-r">
             {services.map((service, index) => (
@@ -564,30 +568,30 @@ export default function Navbar() {
             ))}
           </div>
           <div className="col-span-3">
-            <h2 className="text-xl font-bold mb-4">Latest from COMMNET</h2>
+            {/* <h2 className="text-xl font-bold mb-4">Latest from COMMNET</h2> */}
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <img
+                {/* <img
                   src="/assets/press-4.jpg"
                   className="w-12 h-12 object-cover rounded-md"
-                />
+                /> */}
                 <div>
-                  <p className="text-sm font-semibold">Technology Solutions</p>
+                  {/* <p className="text-sm font-semibold">Technology Solutions</p>
                   <p className="text-xs text-white/80">
                     Bring your digital agenda to reality.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <img
+                {/* <img
                   src="/assets/press-3.jpg"
                   className="w-12 h-12 object-cover rounded-md"
-                />
+                /> */}
                 <div>
-                  <p className="text-sm font-semibold">Security Solutions</p>
+                  {/* <p className="text-sm font-semibold">Security Solutions</p>
                   <p className="text-xs text-white/80">
                     Next-Gen Cyber Defense For A Safer Digital Tomorrow.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -602,14 +606,14 @@ export default function Navbar() {
           data-aos="fade-down"
         >
           <div className="col-span-3 border-r pr-6">
-            <h2 className="text-2xl font-bold mb-4">About COMMNET</h2>
-            <p className="text-sm text-white/90">
+            {/* <h2 className="text-2xl font-bold mb-4">About COMMNET</h2> */}
+            {/* <p className="text-sm text-white/90">
               Learn more about our company, our leadership team, and our mission to deliver
               cutting-edge technology solutions across the region.
             </p>
             <button className="mt-6 w-fit bg-white text-black px-6 py-3 rounded-full text-sm font-semibold">
               Read More
-            </button>
+            </button> */}
           </div>
           <div className="col-span-6 px-6 border-r">
             <div className="grid grid-cols-2 gap-6">
@@ -625,41 +629,41 @@ export default function Navbar() {
                   </div>
                   <div>
                     <div className="text-sm font-medium">{item.label}</div>
-                    <p className="text-xs text-white/80">
+                    {/* <p className="text-xs text-white/80">
                       {item.label === "Our Leadership" 
                         ? "Meet the team driving our success"
                         : "Discover our story and vision"}
-                    </p>
+                    </p> */}
                   </div>
                 </NavLink>
               ))}
             </div>
           </div>
           <div className="col-span-3">
-            <h2 className="text-xl font-bold mb-4">Company Highlights</h2>
+            {/* <h2 className="text-xl font-bold mb-4">Company Highlights</h2> */}
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <img
+                {/* <img
                   src="/assets/press-4.jpg"
                   className="w-12 h-12 object-cover rounded-md"
-                />
+                /> */}
                 <div>
-                  <p className="text-sm font-semibold">Our Mission</p>
+                  {/* <p className="text-sm font-semibold">Our Mission</p>
                   <p className="text-xs text-white/80">
                     Delivering innovative technology solutions.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <img
+                {/* <img
                   src="/assets/press-3.jpg"
                   className="w-12 h-12 object-cover rounded-md"
-                />
+                /> */}
                 <div>
-                  <p className="text-sm font-semibold">Our Vision</p>
+                  {/* <p className="text-sm font-semibold">Our Vision</p>
                   <p className="text-xs text-white/80">
                     Leading the digital transformation journey.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

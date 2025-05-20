@@ -514,7 +514,7 @@ const locations = [
     lat: 25.2532,
     lon: 55.3657,
     phone: "+971 4 123 4567",
-    email: "dubai@company.com",
+    email: "info@commnetsysconsult.com",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM",
     timezone: "Local Time (GMT+4)"
   },
@@ -881,7 +881,7 @@ export default function GlobalPresence() {
           
           <div className="flex flex-wrap justify-center gap-3 md:gap-4 relative z-10">
             <a
-  href="/contactus"
+  href="/aboutus"
   className="bg-transparent border-2 border-white text-white hover:bg-white hover:bg-opacity-10 font-medium py-2 md:py-3 px-6 md:px-8 rounded-lg transition-all text-sm md:text-base"
 >
   Learn More

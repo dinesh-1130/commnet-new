@@ -362,7 +362,7 @@ export default function Footer() {
               With more than 25 years of experience, 7 offices across the region - Commnet is a
               leading end-to-end digital solutions provider...
             </p>
-            <h4 className="text-xl font-bold mt-10 mb-3" data-aos="fade-up">Subscribe to our Newsletter</h4>
+            {/* <h4 className="text-xl font-bold mt-10 mb-3" data-aos="fade-up">Subscribe to our Newsletter</h4>
             <div className="flex flex-wrap items-center border-b border-gray-400 pb-2 max-w-sm" data-aos="fade-up">
               <input
                 type="email"
@@ -370,7 +370,7 @@ export default function Footer() {
                 className="flex-1 outline-none bg-transparent text-sm min-w-[150px]"
               />
               <button className="bg-sky-600 text-white px-5 py-2 rounded hover:bg-sky-700 mt-2 lg:mt-0">Subscribe</button>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
@@ -416,7 +416,7 @@ export default function Footer() {
             leading end-to-end digital solutions provider...
           </p>
 
-          <div className="mt-4" data-aos="fade-up">
+          {/* <div className="mt-4" data-aos="fade-up">
             <h4 className="text-lg font-bold mb-2">Subscribe to our Newsletter</h4>
             <input
               type="email"
@@ -424,7 +424,7 @@ export default function Footer() {
               className="w-full border-b border-gray-400 outline-none bg-transparent text-sm py-2"
             />
             <button className="bg-sky-600 text-white px-6 py-2 mt-4 rounded-full">Subscribe</button>
-          </div>
+          </div> */}
 
           <div className="border-t border-gray-300 pt-4" data-aos="fade-up">
             <button onClick={() => toggleSection("general")} className="w-full flex justify-between items-center py-3">

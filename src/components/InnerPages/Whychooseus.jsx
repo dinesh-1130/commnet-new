@@ -74,9 +74,9 @@ export default function WhyChooseUs() {
         <div className="absolute inset-0 bg-black/50"></div>
         
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-          <span className="inline-block py-1 px-3 rounded-full bg-red-500/20 text-red-400 text-xs font-semibold tracking-wider mb-4">
+          {/* <span className="inline-block py-1 px-3 rounded-full bg-red-500/20 text-red-400 text-xs font-semibold tracking-wider mb-4">
             WHY CHOOSE US
-          </span>
+          </span> */}
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
             We Deliver <span className="inline-block">Technology with Purpose</span>
           </h1>
@@ -230,7 +230,7 @@ export default function WhyChooseUs() {
                     <FaMedal className="text-sky-600 text-3xl mb-4" />
                     <h4 className="font-bold text-gray-800 mb-2">Regional Expansion</h4>
                     <p className="text-sm text-gray-600">
-                      Grew operations across India, Qatar, Muscat, and Singapore
+                      Grew operations across UAE and India.
                     </p>
                   </div>
                 </div>

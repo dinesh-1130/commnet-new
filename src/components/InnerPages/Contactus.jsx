@@ -24,12 +24,12 @@ export default function ContactPage() {
       >
         <div className="bg-black/60 absolute inset-0"></div>
         <div className="relative z-10 max-w-2xl space-y-6" data-aos="fade-up">
-          <button
+          {/* <button
             onClick={scrollToContact}
             className="border border-white px-4 py-1 rounded-full text-white text-sm"
           >
             Contact Us
-          </button>
+          </button> */}
           <h1 className="text-white text-5xl font-bold leading-tight">
             Get in Touch for Expert Assistance
           </h1>

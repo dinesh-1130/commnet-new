@@ -377,9 +377,9 @@ export default function EnterpriseSystemsGroup() {
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
               Infrastructure Systems Group
             </h1>
-            <button className="mt-4 bg-purple-700 hover:bg-purple-800 text-white font-semibold px-6 py-2 rounded-full text-sm">
+            {/* <button className="mt-4 bg-purple-700 hover:bg-purple-800 text-white font-semibold px-6 py-2 rounded-full text-sm">
               Get in touch
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
@@ -407,7 +407,7 @@ export default function EnterpriseSystemsGroup() {
               Commnet is geared up with a respective fleet of professionals to be at your service.
             </p>
 
-            <h3 className="text-lg font-semibold uppercase mb-4">SC Service Process</h3>
+            {/* <h3 className="text-lg font-semibold uppercase mb-4">SC Service Process</h3> */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-8 text-gray-800 text-base md:text-lg">
               {[
                 "Cable Pulling",
