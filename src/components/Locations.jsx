@@ -525,7 +525,7 @@ const locations = [
   lat: 13.0064,
   lon: 80.1986,
   phone: "+91 7558164222",
-  email: "india@company.com",
+  email: "info@commnetsysconsult.in",
   hours: "Monday - Friday: 9:30 AM - 6:30 PM",
   timezone: "Local Time (GMT+5:30)"
 },
