@@ -407,7 +407,7 @@ export default function EnterpriseSystemsGroup() {
               Commnet is geared up with a respective fleet of professionals to be at your service.
             </p>
 
-            {/* <h3 className="text-lg font-semibold uppercase mb-4">SC Service Process</h3> */}
+            <h3 className="text-lg font-semibold uppercase mb-4">SC Service Process</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-8 text-gray-800 text-base md:text-lg">
               {[
                 "Cable Pulling",

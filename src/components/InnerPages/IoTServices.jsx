@@ -144,7 +144,7 @@ export default function EnterpriseSystemsGroup() {
              <p>The Internet of Things is here and information access to the network is even more profound as homes, buildings, offices and even the whole city begins to connect to each other, providing a whole new experience of a connected world and a seamless virtual reality which can only be made possible through strong connectivity.</p>
             <p>Businesses of all sizes in every industry are looking to IoT solution providers to develop, secure, and maintain the integration of their IoT solutions. Is IoT worth calling a revolution? YES. Revolution is directly proportional to change. And the Internet of Things has brought about much disruption, in positively every field and industry, for it to cause a powerful Technology and an Industrial Revolution.</p>
            
-            <p> <p >Our IoT Capabilities :</p>  We offer easily deployable solutions for enterprises that gather data from sensors to provide actionable business insights.
+            <p> <p className="text-lg font-semibold uppercase mb-4">Our IoT Capabilities :</p>  We offer easily deployable solutions for enterprises that gather data from sensors to provide actionable business insights.
 
 </p>
 {/* <p>
