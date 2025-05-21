@@ -759,7 +759,7 @@ export default function Navbar() {
               </ul>
             )}
             <li>
-              <a href="/Projects" onClick={() => setMobileMenuOpen(false)}>
+              <a href="/ourprojects1" onClick={() => setMobileMenuOpen(false)}>
                 Projects
               </a>
             </li>
