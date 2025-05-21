@@ -902,11 +902,7 @@ export default function Navbar() {
       label: "Cyber Security Services",
       link: "/cybersecurityservices",
     },
-    {
-      icon: <FaFolderOpen />,
-      label: "our projects",
-      link: "/ourprojects",
-    }
+   
   ];
 
   const aboutItems = [
@@ -1052,7 +1048,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="fixed top-0 left-0 w-full h-screen z-50 bg-sky-700 text-white p-6 transition-all duration-300 animate-fadeDown overflow-y-auto">
+        <div className="fixed top-0 left-0 w-full h-screen z-50 bg-white text-black p-6 transition-all duration-300 animate-fadeDown overflow-y-auto">
           <div className="flex justify-between items-center mb-6">
             <img src="/assets/logo.png" alt="COMMNET" className="h-10" />
             <button
