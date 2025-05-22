@@ -153,7 +153,7 @@ export default function WhyChooseUs() {
             </div>
             
             <div data-aos="fade-left" className="space-y-12">
-              <div className="inline-block px-4 py-2 rounded-full bg-sky-100 text-sky-700 font-semibold text-sm">
+              <div className="inline-block px-4 py-2 rounded-full bg-sky-100 text-red-600 font-semibold text-sm">
                 Our Approach
               </div>
               
@@ -187,7 +187,7 @@ export default function WhyChooseUs() {
       <section className="py-24 bg-white overflow-hidden">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <span className="inline-block py-1 px-3 rounded-full bg-sky-100 text-sky-600 text-xs font-semibold tracking-wider mb-4">
+            <span className="inline-block py-1 px-3 rounded-full bg-sky-100 text-red-600 text-xs font-semibold tracking-wider mb-4">
               OUR JOURNEY
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
@@ -291,12 +291,12 @@ export default function WhyChooseUs() {
             </div>
 
             <div data-aos="zoom-in" data-aos-delay="100" className="bg-white rounded-xl overflow-hidden shadow-lg">
-              <div className="h-2 bg-sky-600"></div>
+              <div className="h-2 bg-red-600"></div>
               <div className="p-8">
                 <div className="w-16 h-16 rounded-full bg-sky-100 flex items-center justify-center mb-6 mx-auto">
-                  <FaHandshake className="text-sky-600 text-2xl" />
+                  <FaHandshake className="text-red-600 text-2xl" />
                 </div>
-                <h3 className="text-xl font-bold text-center text-sky-600 mb-4">Our Mission</h3>
+                <h3 className="text-xl font-bold text-center text-red-600 mb-4">Our Mission</h3>
                 <p className="text-black text-center">
                   We aim to build lasting partnerships by aligning our expertise with your success.
                 </p>
@@ -446,7 +446,7 @@ export default function WhyChooseUs() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-sky-600 text-white mt-5">
+      <section className="py-16 bg-red-700 text-white mt-5">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
           <p className="text-lg text-sky-100 max-w-2xl mx-auto mb-8">

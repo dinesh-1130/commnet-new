@@ -13,10 +13,15 @@ module.exports = {
       animation: {
         'slide-fade': 'slideFade 0.5s ease-out forwards',
       },
-      fontFamily: {
-        sans: ['Lato', 'sans-serif'],
-      },
+     
     },
+     fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+          roboto: ['Roboto', 'sans-serif'],
+          helvetica: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
+         monument: ['Monument Extended', 'sans-serif'],
+
+      },
   },
   plugins: [],
 };
