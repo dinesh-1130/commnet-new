@@ -99,40 +99,41 @@ const TrustedBy = () => {
   const repeatedLogos = [...logos, ...logos]; // Duplicate for seamless loop
 
   return (
-    <div className="relative py-10 bg-white overflow-hidden" data-aos="fade-up">
-      <div className="relative z-10 w-full px-4">
-        <h2 className="text-center text-xl font-semibold text-sky-700 mb-8">
-          Trusted By 
-        </h2>
+  <div className="relative min-h-[200px] py-10 bg-white overflow-hidden" data-aos="fade-up">
+  <div className="relative z-10 w-full px-4">
+    <h2 className="text-center text-xl font-semibold text-sky-700 mb-8">
+      Trusted By 
+    </h2>
 
-        {/* Continuous Marquee */}
-        <div className="overflow-hidden w-full">
-          <div className="flex w-max animate-continuous-marquee gap-16">
-            {repeatedLogos.map((logo, index) => (
-              <img
-                key={index}
-                src={`./assets/${logo}`}
-                alt={`Client ${index}`}
-                className="h-[40px] w-auto transition duration-300"
-              />
-            ))}
-          </div>
-        </div>
+    {/* Centered Marquee */}
+    <div className="flex items-center justify-center h-[100px] overflow-hidden w-full">
+      <div className="flex w-max animate-continuous-marquee gap-16">
+        {repeatedLogos.map((logo, index) => (
+          <img
+            key={index}
+            src={`./assets/${logo}`}
+            alt={`Client ${index}`}
+            className="h-[40px] w-auto transition duration-300"
+          />
+        ))}
       </div>
-
-      <style>
-        {`
-          @keyframes continuous-marquee {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-          }
-
-          .animate-continuous-marquee {
-            animation: continuous-marquee 40s linear infinite;
-          }
-        `}
-      </style>
     </div>
+  </div>
+
+  <style>
+    {`
+      @keyframes continuous-marquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+
+      .animate-continuous-marquee {
+        animation: continuous-marquee 20s linear infinite;
+      }
+    `}
+  </style>
+</div>
+
   );
 };
 

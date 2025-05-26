@@ -93,12 +93,16 @@ export default function HeroSection() {
   return (
     <section className="relative w-screen h-screen overflow-hidden font-['Lato']">
       {/* Static Background Image */}
-      <img
-        src="/assets/hero.jpg"
-        loading="lazy"
-        alt="Hero Background"
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
-      />
+     <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+  >
+    <source src="/assets/herointro.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40 z-10" />

@@ -86,13 +86,9 @@ export default function WhyChooseUs() {
         </div>
       </section>
 
-
+{/* 
 <section className="relative py-24  text-gray-800 overflow-hidden">
-  {/* Particle Background */}
-  <div className="absolute inset-0 w-full h-full z-0 pointer-events-none">
-    <SkyParticles />
-  </div>
-
+ 
   <div className="max-w-7xl mx-auto px-6 relative z-10">
     <div className="text-center mb-16">
       <span className="inline-block py-1 px-3 rounded-full bg-red-100 text-red-600 text-xs font-semibold tracking-wider mb-4">
@@ -132,9 +128,47 @@ export default function WhyChooseUs() {
       </div>
     </div>
   </div>
+</section> */}
+
+
+<section className="relative py-10 text-gray-800 overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6 relative z-10">
+    <div className="text-center mb-10">
+      <span className="inline-block py-1 px-3 rounded-full bg-red-100 text-red-600 text-xs font-semibold tracking-wider mb-4">
+        LEADERSHIP INSIGHTS
+      </span>
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">Our MD Speaks</h2>
+      <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
+        Hear directly from our Managing Director about our vision, values, and commitment to excellence.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div data-aos="fade-right" className="space-y-4">
+        <h3 className="text-xl md:text-2xl font-bold">A Message From Our Leadership</h3>
+        <p className="text-black text-sm md:text-base">
+          Our success is built on understanding the unique challenges our clients face and delivering tailored solutions that drive real business outcomes.
+        </p>
+        <p className="text-black text-sm md:text-base">
+          At Commnet, we believe that technology should serve people - not the other way around. Our approach combines technical excellence with a deep understanding of human needs.
+        </p>
+      </div>
+
+      <div data-aos="fade-left" className="relative">
+  <div className="w-full max-w-2xl h-64 rounded-xl overflow-hidden mx-auto -ml-6">
+    <img
+      src="/assets/md-1.jpeg"
+      alt="Managing Director"
+      className="w-full h-full object-contain"
+    />
+  </div>
+
+
+        <div className="absolute -bottom-6 -right-6 w-20 h-20  rounded-full opacity-30 blur-lg"></div>
+      </div>
+    </div>
+  </div>
 </section>
-
-
 
 
 
