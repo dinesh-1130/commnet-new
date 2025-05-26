@@ -258,8 +258,8 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import { FaChevronLeft, FaChevronRight, FaCheckCircle } from "react-icons/fa";
 
-import HeroBg from "/assets/pw-1.jpg";
-import OverviewImg from "/assets/swiper/power.jpg";
+import HeroBg from "/assets/pw-7.jpg";
+import OverviewImg from "/assets/pw-5.jpg";
 
 const TechnologyData = [
   {
